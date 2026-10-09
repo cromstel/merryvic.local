@@ -259,7 +259,7 @@ if ( $reg ) {
 	echo "register page created: #$reg_id\n";
 }
 
-$home_url = getenv('HOME_URL') ?: 'http://localhost/merryvic';
+$home_url = getenv('HOME_URL') ?: 'https://merryvic.com';
 $reg_url  = $home_url . '/register/';
 
 /* ------------------------------------------------------------------ *

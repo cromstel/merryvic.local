@@ -19,7 +19,7 @@ This repository contains the **MerryVic** multivendor ecommerce WordPress instal
    - `WP_SITEURL` – Same as `WP_HOME` unless overridden.
    - `HOME_URL` – Used by the auth‑pages setup script (fallback to the default localhost URL).
 
-2. **Deploy** the files to a server that serves the site under the `/merryvic/` sub‑directory.
+2. **Deploy** the files to the root of the web server (e.g., `https://merryvic.com/`).
    - Ensure Apache’s `AllowOverride` is enabled to honor the `.htaccess` file.
    - Install required WordPress plugins and themes (e.g., Blocksy).
 
