@@ -70,7 +70,7 @@ define( 'WP_CACHE_KEY_SALT', 'Qn`TqsG=Uw )!%Blq{-]z>MC^P$sr|0IDb>Zv.Y!HHYZM;<.@-
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'merryvicdb_';
+$table_prefix = 'mv_';
 
 
 /* Add any custom values between this line and the "stop editing" line. */
