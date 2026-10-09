@@ -1,13 +1,15 @@
 # MerryVic WordPress Site
 
-This repository contains the **MerryVic** WordPress installation, prepared for production use. Recent updates include:
+This repository contains the **MerryVic** multivendor ecommerce WordPress installation, prepared for production use. Recent updates include:
 
+- Database table prefix changed to `mv_` (from `merryvicdb_`).
 - Removal of legacy `mv-` filename prefixes from exported templates.
-- Dynamic handling of site URLs using environment variables (`WP_HOME`, `WP_SITEURL`).
 - Added security hardening via an MU‑plugin that sets CSP, HSTS, Referrer‑Policy, X‑Content‑Type‑Options, and X‑Frame‑Options headers.
+- Dynamic handling of site URLs using environment variables (`WP_HOME`, `WP_SITEURL`).
 - Enhanced accessibility for vendor notes.
 - `.htaccess` configuration with rewrite rules, security headers, and static asset caching.
 - Enabled WordPress debugging (`WP_DEBUG` and `WP_DEBUG_LOG`).
+- Version control: `VERSION` file (1.0.0) and `v1.0.0` tag.
 - Cleaned up duplicate pages and stray scripts.
 
 ## Setup
